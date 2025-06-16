@@ -1,0 +1,251 @@
+/* style.css */
+
+
+
+body {
+
+  font-family: 'Nunito', sans-serif;
+
+  color: #5c5c5c;
+
+  background-color: #f9f9f5;
+
+  margin: 0;
+
+  padding: 0;
+
+}
+
+
+
+.titulo {
+
+  font-family: 'Red Rose', serif;
+
+  color: #588157;
+
+  font-weight: 700;
+
+}
+
+
+
+.subtitulo {
+
+  font-size: 1.2rem;
+
+  max-width: 600px;
+
+  margin: 0 auto;
+
+}
+
+
+
+.destaque {
+
+  color: #588157;
+
+}
+
+
+
+.botao {
+
+  background-color: #a3b18a;
+
+  color: white;
+
+  text-decoration: none;
+
+  padding: 0.6rem 1.2rem;
+
+  border-radius: 8px;
+
+  font-weight: 600;
+
+  transition: background-color 0.3s;
+
+}
+
+
+
+.botao:hover {
+
+  background-color: #8c9e70;
+
+  color: white;
+
+}
+
+
+
+.foto {
+
+  width: 120px;
+
+  height: 120px;
+
+  background-color: #d3d3d3;
+
+  border-radius: 50%;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  font-size: 1.2rem;
+
+  color: #ffffff;
+
+}
+
+
+
+.card-title {
+
+  font-family: 'Red Rose', serif;
+
+  color: #588157;
+
+  font-size: 1.1rem;
+
+}
+
+
+
+.card-text {
+
+  font-size: 0.95rem;
+
+}
+
+
+
+footer {
+
+  font-size: 1rem;
+
+}
+
+
+
+@media (max-width: 768px) {
+
+  .botao {
+
+    margin-bottom: 0.5rem;
+
+  }
+
+
+
+  .subtitulo {
+
+    font-size: 1rem;
+
+  }
+
+
+
+  .titulo {
+
+    font-size: 1.5rem;
+
+  }
+
+}
+
+
+
+.navbar-brand {
+
+  font-size: 1.5rem;
+
+}
+
+
+
+.nav-link {
+
+  font-weight: 600;
+
+}
+
+
+
+.modal-body {
+
+  font-size: 0.95rem;
+
+  color: #5c5c5c;
+
+}
+
+
+
+.sobre-section {
+
+  padding: 2rem 1rem;
+
+  max-width: 900px;
+
+  margin: 0 auto;
+
+  text-align: center;
+
+}
+
+
+
+.sobre-section h2 {
+
+  font-family: 'Red Rose', serif;
+
+  color: #588157;
+
+  margin-bottom: 1rem;
+
+}
+
+.formacao {
+
+  margin-top: 1.5rem;
+
+  text-align: left;
+
+  max-width: 600px;
+
+  margin-left: auto;
+
+  margin-right: auto;
+
+}
+
+.formacao h3 {
+
+  font-family: 'Red Rose', serif;
+
+  color: #588157;
+
+  margin-bottom: 0.5rem;
+
+}
+
+.formacao ul {
+
+  list-style: none;
+
+  padding: 0;
+
+}
+
+.formacao li {
+
+  margin-bottom: 0.5rem;
+
+  font-size: 1rem;
+
+}
